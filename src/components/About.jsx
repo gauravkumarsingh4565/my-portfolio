@@ -1,5 +1,4 @@
 import React from 'react'
-import { personal } from '../data'
 import './styles/About.css'
 import aboutImg from '../../src/assets/about.jpeg' 
 

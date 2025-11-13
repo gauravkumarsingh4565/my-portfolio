@@ -4,7 +4,7 @@ export const personal = {
   location: 'Chanda Nagar, Hyderabad, Telangana, India',
   phone: '(+91) 8404821060',
   email: 'gauravkumarsingh4565@gmail.com',
-  github: 'https://github.com/gauravkumarsingh4565?tab=repositories',
+  github: 'https://github.com/gauravkumarsingh4565',
   linkedin: 'https://www.linkedin.com/in/gaurav-kumar-551bb4272',
  
     
