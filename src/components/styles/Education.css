@@ -1,0 +1,69 @@
+.education-section {
+    padding: 60px 0;
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: left;
+  
+    @media (max-width: 768px) {
+      padding: 40px 16px;
+    }
+  }
+  
+  .section-heading {
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-bottom: 24px;
+    color: #0077cc;
+  
+    &.mt-6 {
+      margin-top: 40px;
+    }
+  }
+  
+  .education-card,
+  .training-card {
+    background-color: #f8f9fa;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: all 0.3s ease;
+  
+    &:hover {
+      background-color: #f0f8ff;
+      transform: translateY(-3px);
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+    }
+  }
+  
+  .education-degree {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 6px;
+  }
+  
+  .education-college,
+  .training-org {
+    font-size: 0.95rem;
+    color: #444;
+    margin-bottom: 6px;
+  }
+  
+  .training-title {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 4px;
+  }
+  
+  .training-details {
+    font-size: 0.95rem;
+    color: #555;
+    margin-top: 6px;
+  }
+  
+  .trainings-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  

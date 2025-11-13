@@ -1,13 +1,24 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+:root {
+  --container-width: 1200px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+* { box-sizing: border-box; }
+html,body,#root { height:100%; margin:0; font-family: 'Poppins', system-ui, -apple-system, 'Segoe UI', Roboto, Arial; color:#0b1220; background:#ffffff; }
+
+.container { max-width: var(--container-width); margin: 0 auto; padding: 0 20px; }
+
+a { color: inherit; text-decoration: none; }
+
+/* small helpers */
+.muted { color:#6b7280; font-size:0.95rem; }
+
+.btn-primary {
+  background: linear-gradient(90deg,#2563eb,#06b6d4);
+  color:#fff; border:none; padding:10px 16px; border-radius:8px; cursor:pointer;
 }
+.btn-outline { background:transparent; border:1px solid #dbeafe; padding:8px 12px; border-radius:8px; }
+
+/* utility spacing */
+.mt-6 { margin-top:24px; }

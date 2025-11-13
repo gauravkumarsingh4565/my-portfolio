@@ -1,0 +1,90 @@
+export const personal = {
+  name: 'Gaurav Kumar',
+  title: 'React.js Developer',
+  location: 'Chanda Nagar, Hyderabad, Telangana, India',
+  phone: '(+91) 8404821060',
+  email: 'gauravkumarsingh4565@gmail.com',
+  github: 'https://github.com/gauravkumarsingh4565?tab=repositories',
+  linkedin: 'https://www.linkedin.com/in/gaurav-kumar-551bb4272',
+ 
+    
+}
+
+export const experience = [
+  {
+    company: 'Omkara Infotech Pvt. Ltd.',
+    role: 'Software Developer',
+    period: 'Sep 2024 — Present',
+    bullets: [
+      'Developed and maintained React.js applications using Hooks, Redux Toolkit, and TypeScript.',
+      'Improved UI responsiveness and performance by optimizing component rendering and leveraging lazy loading.',
+      'Integrated RESTful APIs with Node.js and MongoDB.',
+      'Collaborated within an Agile team; participated in code reviews, testing, and debugging.',
+      'Utilized Git/GitHub for version control and team collaboration.'
+    ]
+  },
+  {
+    company: 'CapEngage Technology Solutions Pvt. Ltd.',
+    role: 'Software Developer',
+    period: 'Jan 2024 — Aug 2024',
+    bullets: [
+      'Built and optimized web applications using Angular, Node.js, and MongoDB.',
+      'Contributed to ai.capengage.com, a marketing automation platform supporting WhatsApp, SMS, Email, and Push campaigns.',
+      'Developed reusable UI components with Angular Material and Bootstrap.',
+      'Participated in full SDLC: requirements, development, testing, and deployment.',
+      'Conducted code reviews and enforced coding best practices.'
+    ]
+  }
+]
+
+export const skills = {
+  frontend: ['React.js', 'Redux Toolkit', 'Next.js', 'TypeScript', 'JavaScript (ES6+)', 'HTML5', 'CSS3', 'Bootstrap', 'Angular'],
+  backend: ['Node.js', 'REST APIs'],
+  database: ['MongoDB'],
+  tools: ['Git', 'GitHub', 'VS Code'],
+  other: ['Responsive Web Design', 'Cross-Browser Compatibility', 'Agile Development']
+}
+
+export const projects = [
+  {
+    title: 'Temple Dekho (Ecommerce plateform)',
+    summary: 'A temple discovery platform to explore and learn about famous temples across India.',
+    tags: ['React', 'TypeScript', 'Redux', 'MUI'],
+    image: 'data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxITEBUTExMWFRUXFRUYFxUWFxUWGBcXFRUXFxUXFxcYHSggGBolGxUXITEhJSkrLi4uFx8zODMsNygtLisBCgoKDg0OGhAQGy0mICUtLS8tLS0tLS0tLS0vLS4tLS0tLy0tLS0tLS0vKy0tLS0tLS0tLS0tLS0tLS0tLS0tLf/AABEIAKsBJwMBIgACEQEDEQH/xAAbAAACAwEBAQAAAAAAAAAAAAAABAECBQMGB//EAEAQAAEDAQQIBAQFAgUDBQAAAAEAAhEDBCExQQUSUWFxgZHwIqGxwQYy0eETQlJy8SOSBzNDYtKCssIUFRZTY//EABoBAAIDAQEAAAAAAAAAAAAAAAABAgMEBQb/xAAtEQACAgEDAwIFBAMBAAAAAAAAAQIRAwQhMRIyQSJRE2FxgaEFFDPRI5HwFf/aAAwDAQACEQMRAD8A91YnYieSaSNm1ZvN+SeXmjosEIQgAQhCABWjLIYqG7VIacBxKYFXFXb8p5H2R+Edw4kK1Nt+IvBF0ppOxFKbJPqVdzpuHyjqVLv0jAXnftUMZrHcE68IAYwu4BMsaBgpFyWq15uCs2gLk61KwG8rg6q4/ZUiMen1QSq3NsdBG/3RdvQ5uG9S4XA8Z6qIyJGw9fsi7f6qC9sC8Z5jvJWjwzvToCI2H2XRtYjHzXPVunegFCdCHKdUH6IqUwUnGxd6NfI9VYp3sxUc3Ni44blIP5XcjsTL2yIKVc2LjhklKPSMo9sGCrVchsHrergT4TiMPoqvbJJkeYUaAo0qYy6Kfwjx4EKCDzCjQFUKXbdqhIYIQhAAhChACdrd4sUKlYCbihAzRdoiRLXXxnh5LjZ6VQOLC03bvfYm26WZAudhsH1U/wDu9PY7oPqtUoYnw6K7kcXsIxEKEz/66m8EQeg64pPXviDhiqJxSfpdkk35LoQpZ6KAy2fDv1VWuvnr7oy4+3fkoTAl7YK6MuE5m4IYwkDcfIqXm+chcI8lJKtxFA2YA6wm2tgQudnbmcSi0VIG8qcVStiOderNw/lc8OKgXKWAH2VbbbGRq3SrYjePRQDBvU2ZwNRwH5QCeLp1R0E82qUI9TpAVqSBGCXdRnEk81rPYCIKz3tgwtSxqJbjfsLGyjIrm6m5t/mE4hDii1Tfk4U7XgHdfqm3G4Acfos+0UoMjBTZrSGua12DiQP3QSBzAPONqonD2I5MarqQ8WwJU48fVEElQ6Ju6qkoO9nq5HkutVkhJnb3KcpPkK2DvZkWKjzGFymqJhwzx4rpaGwZHNVYMW5ESPZRrwM50xmcB2FAdfKvUaQAOZ4rmoPbYC0Yjn3yVVacD3cquF6GMEIVA+8iMM8kgLpG0VpMA3eq6Wx5wlKoGCEIQAIQhAFmPgyFoMeCJCzV3sj4MbfVADqnLvvYqFw2roBgO8Y9kxFg2TG7+VGuBgOZvKoTfK6HxX55796f0ETTcb3HIXc1XVwG3NSfkG8q9ES/K7Z0Tq6QDACTeZd3gE1VdDSkxh5KeR+AQTerFgOHQqGxn1U6mwqsA1snea89/h1pIVqFeuTfVtdVwuM6obTbTB4Ma0clp6erllktD/00KzgcvDTcfZeR/wAIqs2F4/TaHjrTpH3WvTx9EpfQS3mke005p+lZqeu4PeS4NZTpt1n1HkEhrRmYBPAFcrDan1WB76T6LjPgeWFw2HwEj3VrVXDG6x2gAC8kuIa1o3kkDmqaNtzK9FlamZY9oc034HjgrG7Reo0ylS1EWhlPIscec3eTXdV3tVVzWOc1hqOAkMaWguOwF5AHMqxpjW1oEgQDF8bJRXqhjXPcYa0EknIASSoom6fBmaJ0wy0te3UqUqlMgPpVW6r2zOq7YWnVMEYwVlfGVZzLFUqMucw0ntP+5lZjh5hb+jNIMrNc5n5HvpuBBBa+m7Vc0g4EELzX+Ib9XR9fjTHWsxSSvItvIrrHLfwz2FktQq02PZ8r2NeODgHD1XbVAxv3LC+BKxdo2zH/APPVn9ri0RyC3dQZlYpxqTXsZ07RVpXSzugx3K5uIyUuOB7uUU6AcqNkEJMG6brjzKdBSjhDnDvarMi8iRNUkG7O9QCDlfu+iH3tb0QfDdnnu3KD5GVIxGP2/lQ7Lh6IZj3mjLn6/wAKIyFzq1NUT0VmuBwMpK0Plx3XJAcyZUIQgYIQhAAhCEAClpgyoQgDSgGOoXUYjh7SlbI6W8E1ny/8U0IoujWxeeQz+yKeF3zd4LmU+BHeoflyz7Cmy5lVdi3H5Rgr2TA8VNdwE2o3c0scB33gmLXgEu7Lh7lKfIIkau9TqjIohu9EN7/hRAW0gTqxk6ZuxGw7ReuejbJDXODA2TJgAaxF03Y4YptzGm4+/wBE5SgNGQA7xWjDT2LVOo0kYOndFMtVnfQeSGvAvGILXBzSJ2EBddF2FtCiyk0lwYI1nXuccS5x2kknmrW+q9rC6mz8Qi/8MEAub+YNJu1ovE3EiJEyPl/xX8c2txNNjH2RmHiBbVPFxHg/6b95WqEJT2QpzjDdn11tBxgiIN8ylbTQbUpuY69r2uaY2OEGORXwlnxRbG0jSFqqahmRrzccRrG+/itX4Y+OLZScGeK1Mw1DL6g/Y8AuncZF2SsemklaKVqY3TPqXw3oRljoCixzn3yXOiSYDRhcAGta0DYAptVNrp1mhwmQCARIwxVtHW2pUpmo+k6iCfBTfH4kRjUAuaSZ8MmABN5IFqbZIG9Zcjd7m3Gkl8hjRxPy4CMhhflsxTmqNvfJVZTaMPU/RWhvf8LLJpszzkm7RBjKVGXNSdXeoGHMe6gRG6B8IXKrc8Zdwuln+XqqV/mHtxVr7URK03Q07iqOZmLx5jirD5XcR6rmwmbsVB+Bg3EcVOR5K1QDnmBgqn83eaVAcXw1p3LPTdsdcAlFEkgQhCABCEIAEIQgAQhCAO9kd4o2p4N8QM/liOULLa6DK1Wn5T3jPumhMqugM3HHb9VzIXT5ePp90IRd4gt4RcpsuYVD8gOwq1G50YT/ACrF3IC9qF3NLHAd94pysJaUmMO+9iWRbgiQG7VOsNihoGZU64yCiBYE7I72BQ8XbALzJjqiDn0w6rE0pbdY6jflGMZn6KGTMsS6i7DieSVI06dQOEgyFYrFs7NW+YK4VtKuaWSBDqtJmGAqVGtyI24+uCWD9Qjkai1u/wDRqlgq2nsjdNBn6G/2hQarWi7oFD6TQJM9ViV9IOFodTaGwKbXYEkFzngXm4iGrblydEXJ+CuEFJ0adR5debgOg5puwBpGs062/ZujELI1tdt5+y52es6k+eo2hct/qPVKq2/JdLA5RaT3PSF26fP1lRLdirSq6zQ5pkHqrawOIWu7Oc1RBAyPJRlz9P5Q4DIyh2Q7vSAboDwhcq3zjHlimGiAlXmXE7N8bldLZJEUTTbLTvP3VC+Lh1zP0VnGGt4yquEiRjmPdVsZVuIUBvzGcSLlLMe8lWo6Gk93D7qIxG0Olx6LkhCQwQhCABCEIAEJi22bUI2ESPcJdNpp0wTsEIQkALQsx/pjd37BZ6fsYlsbZHmmDGQ4AyeyoLJwM+qoxoDQBl79lCLEdaQuLd09FUGINyuyoQATffdwzUPbBIyN4uUvAhoJNwh272K72Z90bEWhkidisl6o2hC0XwrawGF+9VxHD0QwjEqkkI6WtJa2Jvd5N27lm2elF5xy3LpVf+JULzhlwGH15qWGb9vpkuNqMvXNvwdXFD4cK8+Tnan3RtSlax/jUqtPDWZAOwyHNPVoXSu6XHombE2Qd5A+/mrdDG80SyarGRY3Vnij+MdV72nWAggFoucLsyJjYQElY7I8CtUqRrvqG4XhrKZ1GAchJ3k4Lcqj+tTjIO/7SuFqZ4njbfzi/wBuq7mePVjkvdMx436kI2Z8GNqYqsn2SQKeBkcV5hm6ap2W0VaSx+ocCehy6/Rbcg7j5Lz1RusJGI9ls2WsHsDhsv4jHveulo8tpwfgwauG/WvudmhdKDZdPNczs6/RN0WQFvgrZiZZ7oBKTAuyknmu1pdl1VWYzk0cJ2KUnboERWEmBkIUNbBknkLypqOJAPXiuSg3uBYkXkXffspe3Hwgb/r9l2fTBAB2z9O964W43c/YpDEkIQkMEIQgAQm9HWP8QmflGPE4BSrYYZSVoi5pDulmf0mnYR5j+FjLW0vV8DG5mDyAj38lkp5+8IcAhCFSSBP2X5Rz9UgnrMPAOfqUAxnPj36qrWyYUU51YOOP173K+tmOBTERUdJ3ZcFdt7d4w4Kv4m4dPorUnCcIiTipLkRAdHiHPec020zelXj8wwOO5TTfqncc/dSi6YEVqcGRh6JLSVSGXYuu64notfFYWk/8yBkPM3n2WfWP4eNtedi7Tx6poQqCAGjO7lmr1HQCqMveTsu781FqNwG0rhnUrdIUWno5vycSfIrtTcAANUXDFDqh3DgIXd0uk+DLqbvYpyZHNVRIdNVp3n/tKraP8zr7KjakObz9Cpdfit17FSW5lOEEhNWV10bEzqDYOiWiKkbR36LhanSPFHquzUsnUqLTDuPqE3o1+q8t/VeNxGPl6JS0C6dhldaT72u2EH6j2WXFPompEMkeqFG9Z6WZ5LtUfAlSXCJySr3a15uGS9E6iqRyCL8czh7qatwDeZ4qzLvEc8B7qryATd1Kr8DIpnLb65KoF8K34m4dFBOeZS2AJxPId8ErbPlHH2K71pwBw7Pe5cLZ8o4+xSYxNCEJDBCEIA3tENikDtJPnHshU0NVlmrm0+Rv9ZQuni7EZ5csYq2Zr2gOGQg5jgVh2uzGm6DyO0L0VPAcAuNvs+uwjMXjiq8uJSja5HGVM84hCFgLwT1l+Qc/UpJokwn6DSGgHu9AM6Aq3oVVS0piIIV2/KTwHfRRGXRSCIgzimhBTfHA4hWc2N4OB2Kst2HqrtqADC6bxyTXsAMqauPyrDtFWS522Ste1XMcW3iI4TcsG1O8PFc7Xydxh9zbpI3bCzDw8SqV6rQ4FxgDv6LvTEAcFl6Xd6jyCw43U0zat2xmrphgwBPkPNa9OzEgEnEZD3+y8aIiTgI+p9Fv2f4koR80bi13qAV3dLneS+oqy4nXoNhtmbBznM48ow5Lm6zR+bqAfSEi74iofrb0cfZJ1/iOjtc7g0j1ha3KJTHFkO1fSTWPLXA3ReIzEqrrUx5aWmYxEELGrWsVnF4BF2B3R7FXsJ8fEFcfU55Pqg+DXHGluegcJELlZXXRsXVpuXCnc8jb/K5glw0btleXMbJuF3TBd2jM3DZtKS0Y4Q6ciDG2f4T1R4ukZbTtXc08urEm/wDvBysqqbRyqPkq1XI7QPoiW7D1Q4ggATnirSsq0KZz6I9FVxSGCXtnyjj7FMLjaWEiBt+qQCKEIQMEzYrIah2AYn2G9LgL0lloBjA0c95zKuw4+t78EZypE0KDWCGiPU8ShdULoJVwZytPAcArL5234htQ/wBU/wBrP+K6M+JrUP8AUB4sZ7AKhaiJvf6fk91+f6PbVdH03fljeLvss626OLRLbxPMDf8AVYVP4ttAxbTd/wBLh6OTtD4yH56PNrp8iPdQk8U/kR/a54+L+50psMtP+4eq0FlO0xZ3Obqkt8UkOERffeJEc1pscCJBBG0XhZGqZGUZR5VFkIQkRJBy6KTvxVVIO3qmBCuPlPEehUHf1UgwIIlCEK2w+A8vVYtYy8DvetrSdX+mcIkXBYllEunu9cvWfyfY6Wk7GxtYelHeIc1trAtl744Dr/KzY+TTAWtd1LjJ9h6rKbitPTDsBw79FmNxHFdXSL/HfuXQ4JA9CqrqB/5+i5LUSNDRJ8RHd4Kbs9zxxj2Wbo98PHeF61LSIfPA9FzNSqyP5lcu436J8I4LjaLnA93LpZj4eqi1N8PBYPJUtpD+jzeeC0amA4e5WToSpeQRMD1K1nGYyAC6+k/iObqVWRlAFbcOZ7yRwwzPfooJ2LSUASoQhIAQhUqVWtEuIaNpIHqgBAMMA7VoWPRusAXXCOe7gsuhpuzsA1tZ5BkBoz3kwEV/jI/ko83O9gPdX44w5myz4GaXaj0lGw024Nv2m8pleFqfFloOApt4NJ9SVxd8S2o/6gHBjPcLQs0I8If7DK+Wj6AhfO//AJDav/tP9rP+KEfuI+zH/wCfk91+f6MxCELGdcEIQgAV6FdzDLXFp3GOu1UQgGrNuyfEThdUbrDaLj0wPktux6Qp1Pldf+k3HpnyXiUJUZsmlhLjY+gIXkbHpuqy4nXGx2PJ2PWVtWTTtJ+J1D/uw/u+sJUYp6acfFmqHKfMKjXAiQZG0XhSCgoF9JNBpO4T0IKyrM3w8Vt2gazHDMtPoslogLm65epM3aWXoa+ZWobjwKw6Ymo47J+gW1aXQ0rHo3MJ2yfoskeGa48GTpSpL+HfslG4q1V0uJVW4ruYo9MEjSlSGAPEP3P9EsmwPEP3u9AlSFMEWpOhwO9btcSwHZ/BXn1vaPfrU45d+aw62PEiGT3NfRzpYOXomHCRCR0QfCRsu6H7p9cyXJRLk6aDbe8ncPVax39O8Elo1sBx2u9h902uxptsSObqJdWRsklQqVKgaJcQBtJgeay7Xp+m25kvO65vU+wV5CGOU+1GukbZpWlTuLpP6W3nnkOa83bNLValxdqj9LbhzOJSCdGvHo/M2bFr+IKjrmAMG3F3U3DosqpULjLiSdpMnzVUJmyGOMO1AhCEEwQhCABCEIAEIQgAQhCABCEIAEIQgAQhCAL0a7mGWuLeBIWhR09WbiQ79w+kLMQgjLHGXKPQU/iUfmp/2u9iPdMNNy8uvSWU/wBNn7W+gXO162i/qVfCjDtOOkj4I2mPr5LI0pV1acbbgtW34jgV5/TZ8TRu91m00OrIkWwVtGartGG8+U99FRdqvzxsj2XaLzuR4h+8+i4PbcTscfNMOxH7/ZVYP8zn7oIia0tDVfEW7cFmrtYzFRvEKrNDqxtDkrR6ew3VDvHpj7LRWbR+dvFaS4bMzFq2mzTJYGAxmTtE4R7pKtpyu78wb+0D1MlKW8/1X8VwXdxRqEfogWGHNFqlRzjLiXHaST6qqEKwtBCEIAEIQgAQhCABCEIAEIQgD//Z',
+    codeLink: 'https://github.com/yourusername/temple-dekho', // change to your GitHub repo if available
+    demoLink: 'https://templedekho.com' // this will open actual project link
+  },
+  {
+    title: 'Marketing Autometion Tool',
+    summary: 'An AI-powered engagement platform designed for personalized interactions and insights.',
+    tags: ['React', 'Node.js', 'OpenAI API'],
+    image: 'https://www.techfunnel.com/wp-content/uploads/2021/07/marketing-automation-platform.png',
+    codeLink: 'https://github.com/yourusername/aicapengage',
+    demoLink: 'https://ai.capengage.com'
+  },
+  {
+    title: 'BrightEdge Vidyarthi (Educetional Website)',
+    summary: 'An education-focused portal that empowers students with resources and interactive tools.',
+    tags: ['React', 'Firebase', 'Tailwind CSS'],
+    image: 'data:image/jpeg;base64,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',
+    codeLink: 'https://github.com/yourusername/brightedge-vidyarthi',
+    demoLink: 'https://www.brightedgevidhyarthi.com/'
+  },
+  {
+    title: 'My Portfolio',
+    summary: 'A personal portfolio website showcasing my projects, skills, and experience.',
+    tags: ['React', 'CSS', 'Framer Motion'],
+    image: 'https://www.hostinger.com/tutorials/wp-content/uploads/sites/2/2022/04/web-developer-portfolio.png',
+    codeLink: 'https://github.com/yourusername/my-portfolio',
+    demoLink: 'https://yourportfolio.com'
+  },
+  {
+    title: 'Weather App',
+    summary: 'A modern weather forecast web app with real-time data and location-based results.',
+    tags: ['React', 'API Integration', 'OpenWeatherMap'],
+    image: 'https://t3.ftcdn.net/jpg/04/91/54/18/360_F_491541875_c0vIhFwHnRZvmRfJELvJxtSQbRDOwbGC.jpg',
+    codeLink: 'https://github.com/yourusername/weather-app',
+    demoLink: 'https://weather-app-demo.com'
+  }
+]
+
