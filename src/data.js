@@ -76,15 +76,15 @@ export const projects = [
     tags: ['React', 'CSS', 'SCSS','HTML',],
     image: 'https://www.hostinger.com/tutorials/wp-content/uploads/sites/2/2022/04/web-developer-portfolio.png',
     codeLink: 'https://github.com/yourusername/my-portfolio',
-    demoLink: 'https://yourportfolio.com'
+    demoLink: 'my-portfolio-pearl-delta-hr76wutvxu.vercel.app'
   },
-  {
-    title: 'Weather App',
-    summary: 'A modern weather forecast web app with real-time data and location-based results.',
-    tags: ['React',"JavaScript", 'API Integration', 'OpenWeatherMap'],
-    image: 'https://t3.ftcdn.net/jpg/04/91/54/18/360_F_491541875_c0vIhFwHnRZvmRfJELvJxtSQbRDOwbGC.jpg',
-    codeLink: 'https://github.com/yourusername/weather-app',
-    demoLink: 'https://weather-app-demo.com'
-  }
+  // {
+  //   title: 'Weather App',
+  //   summary: 'A modern weather forecast web app with real-time data and location-based results.',
+  //   tags: ['React',"JavaScript", 'API Integration', 'OpenWeatherMap'],
+  //   image: 'https://t3.ftcdn.net/jpg/04/91/54/18/360_F_491541875_c0vIhFwHnRZvmRfJELvJxtSQbRDOwbGC.jpg',
+  //   codeLink: 'https://github.com/yourusername/weather-app',
+  //   demoLink: 'https://weather-app-demo.com'
+  // }
 ]
 
