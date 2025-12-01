@@ -14,7 +14,6 @@ export default function About() {
         <div className="about-content">
          
           <p className="about-sub">React.js Developer & Problem Solver</p>
-          {/* <p>{personal.summary}</p> */}
           <div >
             
             <p className="text-slate-600 mb-4">
